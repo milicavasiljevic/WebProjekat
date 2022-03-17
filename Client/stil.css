@@ -1,0 +1,389 @@
+.pozadina1{
+
+    background-image: url('nova.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.divGlavniKontejner {
+
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.slobodanTermin
+{
+    width:70px;
+    height: 30px;
+}
+.zauzetTermin
+{
+    width:70px;
+    height: 30px;
+}
+.terminiHeder
+{
+    width: 10%;
+
+}
+.Polja
+{
+    margin:10px;
+    width:40%;
+    display:flex;
+    flex-direction: row;
+}
+.zauzetTermin1
+{
+    background-color:red;
+    min-width:40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height:90%;
+    width:90%;
+
+}
+.slobodanTermin1
+{
+    background-color:green;
+    min-width:40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height:90%;
+    width:90%;
+
+}
+
+.dugmeOK, .dugmeZakazi{
+
+    width: 10%;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: white;
+    background-color:rgb(138,4,78) ;
+    text-align: center;
+    color: white;
+    min-width:60px;
+
+}
+.MojeRezervacije{
+
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1cm 1cm 1cm 1cm;
+    justify-content: space-between;
+
+}
+.DivZaDugme{
+
+    align-self: center;
+    align-items: center;
+
+}
+.RezervacijeForma{
+
+    flex-grow: 1;
+    display: table;
+    width: fit-content;
+    align-self: center;
+    margin-top:1cm;
+
+}
+.dugmeRez{
+    width:100%;
+    height:100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-decoration-color: white;
+    flex-grow: 1;
+    background-color:rgb(138,4,78) ;
+    color: white;
+
+}
+
+.KorisnikZaglavljeLabela{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(138,4,78);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    
+    text-decoration:underline ;
+}
+.KorisnikZaglavljeLabela1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(138,4,78);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    text-decoration:underline ;
+}
+
+
+.KorisnikZaglavlje{
+    height: 40px;
+
+    order:1;
+
+}
+
+.KorisnikForma{
+
+    max-width: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    flex-flow:column;
+    flex-wrap: wrap;
+    border: white 2px solid;
+    background-color:pink;
+    justify-content: space-between;
+    flex-grow: 1;
+  
+}
+.KorisnikRed{
+
+    height: 1cm;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+
+.KorisnikDugmici{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 2px;
+    flex-grow: 1;
+}
+
+.GlavniKontejner{
+    margin: 50px;
+    padding: 20px;
+    order: 3;
+    background: rgb(216,120,150,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.CenovnikForma{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left:1cm;
+    margin-top:1cm;
+    margin-bottom:1cm;
+    flex-grow: 1;
+}
+.Cenovnik{
+    background-color:rgb(138,4,78) ;
+    height: 1cm;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+.Rezervacija{
+    max-width: 800px;
+    flex-grow: 1;
+    flex-wrap:wrap;
+    flex-flow:column;
+    margin-left:3cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-color: white;
+    border-style: solid;
+    background-color: pink;
+    
+}
+.Naziv{
+    flex-grow: 1;
+    order: 1;
+    height: 10px;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(138,4,78);
+    font-style: oblique;
+    
+    
+}
+
+.KorisnikNaslov{
+   
+    text-align: center;
+    font-size:large;
+    margin-bottom: 0.5cm;
+}
+.Selektovan{
+    background-color: palegreen;
+    border-style: solid black;
+    border-radius: 2px;
+}
+.slobodanTermin{
+
+    background-color: green;
+    width:100%;
+    height:100%;
+    padding:0%;
+    border-radius: 0%;
+}
+.zauzetTermin{
+    background-color: red;
+    width:100%;
+    height:100%;
+    padding:0%;
+    border-radius: 0%;
+}
+table,td,tr{
+   
+    flex-grow: 1;
+    height:30px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-color:white;
+    border:2px  solid pink;
+    
+   
+
+}
+.terminiTabela{
+    margin-right:20px;
+    width: 90%;
+    box-sizing: border-box;
+
+}
+
+table{
+    flex-grow: 1;
+    display: table;
+    width: 100%;
+}
+.TableRow{
+    display: table; 
+}
+th{
+    flex-grow: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(138,4,78) ;
+    color: white;
+    border: solid white;
+}
+.cenTabela{
+    display: table;
+    flex-grow: 1;
+    border: 1px solid goldenrod;
+    background-color: white;
+    font-size: large;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.TabelaPodaci{
+    display: table;
+    flex-grow: 1;
+    margin-top: 5px;
+}
+table{
+    flex-grow: 1;
+    margin-top: 0.5cm;
+    border-collapse: collapse;
+}
+
+.Red1,.Red2,.Red3{
+   
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    width: 100%;
+    margin: 10px;
+    
+    font-size: large;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comboBox,.comboBox2,.comboBox3{
+    width:40%;
+    flex-grow: 1;
+    height: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 10px;
+    
+}
+tbody{
+    flex-grow: 1;
+    width: 100%;
+}
+.KorisnikTextBoxIme,.KorisnikTextBoxPrezime,.KorisnikTextBoxusername,.KorisnikTextBoxsifra,.KorisnikTextBoxIme,.KorisnikTextBoxPrezime{
+    height: 1cm;
+    width: fit-content;
+    margin: 10px;
+    flex-grow: 1;
+}
+.Red0{
+   /* flex-grow: 1;*/
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 3px;
+    font-style: oblique;
+    font-weight: 700;
+}
+label{
+    flex-grow: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 30%;
+    margin-top:20px;
+    justify-content: stretch;
+    
+}
+button{
+    
+    height: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 10px;
+    background-color:rgb(138,4,78);
+    text-decoration-color: white;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
